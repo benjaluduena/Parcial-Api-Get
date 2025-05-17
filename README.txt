@@ -1,3 +1,4 @@
+
 # TENDENCIAS DE YOUTUBE (ARG)
 
 Proyecto sencillo para obtener y mostrar vídeos en tendencia de YouTube usando la YouTube Data API v3.
@@ -93,5 +94,6 @@ const MAX_RESULTS = 12;             // nº de vídeos que trae
    * Limpia el contenedor y crea tarjetas de vídeo.
    * Formatea vistas con separadores de miles.
 
-
+DOCUMENTACION QUE USE : 
+https://developers.google.com/youtube/v3/docs?hl=es-419
 
