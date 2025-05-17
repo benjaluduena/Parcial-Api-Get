@@ -1,0 +1,17 @@
+/* styles.css */
+    body { font-family: Arial, sans-serif; margin: 0; padding: 1rem; }
+    #video-container { 
+      display: grid; 
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); 
+      gap: 1rem; 
+    }
+    .video-card { 
+      border: 1px solid #ddd; 
+      border-radius: 8px; 
+      overflow: hidden; 
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .video-card img { width: 100%; display: block; }
+    .video-info { padding: .5rem; }
+    .video-info h3 { font-size: 1rem; margin: .5rem 0; }
+    .video-info p { font-size: .85rem; color: #555; margin: .25rem 0; }
