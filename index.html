@@ -3,22 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Trending YouTube Videos</title>
+  <title>Ludueña Benjamin - Tendencias Youtube</title>
   <link rel="stylesheet" href="styles.css">
   <script defer src="youtubeTt.js"></script>
-  
 </head>
 <body>
-
-  <h1>Vídeos en Tendencia en YouTube</h1>
-  <div id="video-card">
-    
-
-    
-  </div>
-
-
-   
-
+  <main class="main-content">
+    <h1>
+      <span class="icono-yt">▶️</span>
+      Tendencias de YouTube
+    </h1>
+    <div class="select-wrapper">
+      <label for="seleccionar-pais">Selecciona un país</label>
+      <select id="seleccionar-pais">
+        <option value="" disabled selected>Selecciona un país</option>
+        <option value="AR">Argentina</option>
+        <option value="US">Estados Unidos</option>
+        <option value="MX">México</option>
+        <option value="ES">España</option>
+        <option value="CO">Colombia</option>
+        <option value="PE">Perú</option>
+        <option value="CL">Chile</option>
+      </select>
+    </div>
+    <div id="video-card"></div>
+  </main>
 </body>
 </html>
